@@ -8,6 +8,7 @@ public class Testeheranca {
 		
 		j.dizerNome();
 		j.dizerSeAindajoga();
+		//teste
 	}
 
 }
