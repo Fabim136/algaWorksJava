@@ -1,7 +1,13 @@
 package com.algaworks.curso.fjoo.sobreposicao;
 
+import java.util.Date;
+
 public class Produto {
-	public void indentificar() {
+	protected String descricao;
+	
+	protected Date dataValidade;
+	
+	public void identificar() {
 		System.out.println("Minha descricao é: " +descricao + ". ");
 	}
 
